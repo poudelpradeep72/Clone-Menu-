@@ -1,0 +1,101 @@
+/* UNIVERSAL SELECTOR*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* BODY START */
+body{
+    text-align: center;
+    font-style: inherit;
+    border-left: 1px solid rgb(10, 10, 10);
+}
+/* BODY END */
+
+/* TEXT-DECORATION */
+a{
+    
+    text-decoration: none;
+    display: block;
+}
+
+/* FIRST CHILD START*/
+li:nth-child(1){
+    min-width: 10rem;
+    max-width: 30rem;
+    background-color: beige;
+    margin: 3rem 0rem 0rem 33rem;
+    min-height: 2rem;
+    border-style: solid 2rem;
+    border-color: 2rem;
+    font-weight: bolder;
+    border-radius: 10rem 10rem 0rem 0rem;
+    list-style-type: none;
+}
+
+li:nth-child(1):active{
+    background-color: gray;
+}
+
+li:nth-child(1):hover{
+    background-color: green;
+}
+
+li:nth-child(1):visited{
+    color: rebeccapurple;
+}
+/* SECOND CHILD */
+li:nth-child(2){
+    min-width: 10rem;
+    max-width: 30rem;
+    background-color: rgba(253, 3, 3, 0.932);
+    margin: 0rem 0rem 0rem 33rem;
+    min-height: 2rem;
+    list-style-type: none;
+}
+
+li:nth-child(2):active{
+    background-color: yellow;
+}
+
+li:nth-child(2):hover{
+    background-color: skyblue;
+}
+
+li:nth-child(2):visited{
+    color: black;
+}
+/* THIRD CHILD */
+li:nth-child(3){
+    min-width: 10rem;
+    max-width: 30rem;
+    background-color: rgba(54, 133, 8, 0.815);
+    margin: 0rem 0rem 0rem 33rem;
+    min-height: 2rem;
+    list-style-type: none;
+}
+/* FOURTH CHILD */
+li:nth-child(4){
+    min-width: 10rem;
+    max-width: 30rem;
+    background-color: blue;
+    margin: 0rem 0rem 0rem 33rem;
+    min-height: 2rem;
+    list-style-type: none;
+}
+
+/* FIFTH CHILD */
+li:nth-child(5){
+    min-width: 10rem;
+    max-width: 30rem;
+    background-color: rgba(226, 108, 24, 0.959);
+    margin: 0rem 0rem 3rem 33rem;
+    min-height: 2rem;
+    border-radius: 0% 0% 10rem 10rem;
+    list-style-type: none;
+}
+
+.last_part{
+    font-size: large;
+    
+}
