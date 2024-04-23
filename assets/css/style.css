@@ -1,0 +1,152 @@
+/* UNIVERSAL SELECTOR */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* BODY START */
+body{
+    text-align: center;
+    font-style: inherit;
+    min-height: 50rem;
+    max-width: 800px;
+    margin: 0 auto;
+    border-left: 2px solid #333;
+    border-right: 2px solid #333;
+}
+/* BODY END */
+
+.heading_part{
+    margin: 1rem auto;
+}
+
+
+/* TEXT-DECORATION */
+a{
+    text-decoration: none;
+    display: block;
+}
+
+/* LIST ITEM  */
+li{
+    min-width: 10rem;
+    max-width: 27rem;
+    margin: 0rem 0rem 0rem 12rem;
+    list-style-type: none;
+    font-size: xx-large;
+    color: black;
+    border:1%;
+    border-left: inset;
+    border-right: solid;
+    border-color: black;
+    
+}
+
+/* FIRST CHILD START*/
+li:nth-child(1){
+    background-color: rgb(252, 252, 235);
+    margin: 1.5rem 0rem 0rem 12rem;
+    min-height: 2rem;
+    border:1%;
+    border-color: black;
+    border-style: solid;
+    font-weight: bolder;
+    border-radius: 1rem 1rem 0rem 0rem;
+    font-size: xx-large;
+}
+/* FIRST CHILD ACTIVE, HOVER & VISITED */
+li:nth-child(1) a:active{
+    color: gray;
+}
+
+li:nth-child(1) a:hover{
+    background-color: green;
+}
+
+li:nth-child(1) a:visited{
+    color: rgb(197, 176, 218);
+}
+
+/* SECOND CHILD */
+li:nth-child(2){
+    background-color: rgba(253, 3, 3, 0.932);
+}
+/* SECOND CHILD ACTIVE, HOVER & VISITED */
+li:nth-child(2) a:active{
+    color: yellow;
+}
+
+li:nth-child(2) a:hover{
+    background-color: skyblue;
+}
+
+li:nth-child(2) a:visited{
+    color: rgb(0, 0, 0);
+}
+
+/* THIRD CHILD */
+li:nth-child(3){
+    background-color: rgba(54, 133, 8, 0.815);
+    color: black;
+}
+
+/* THIRD CHILD ACTIVE, HOVER & VISITED */
+li:nth-child(3) a:active{
+    color: red;
+}
+li:nth-child(3) a:hover{
+   background-color:green;
+}
+
+li:nth-child(3) a:visited{
+    color: black;
+}
+
+/* FOURTH CHILD */
+li:nth-child(4){
+    background-color: blue;
+    color: black;
+}
+
+/* FOURTH CHILD ACTIVE, HOVER & VISITED */
+li:nth-child(4) a:active{
+    color: rgb(17, 11, 11);
+}
+
+li:nth-child(4) a:hover{
+    background-color: gray;
+}
+
+li:nth-child(4) a:visited{
+    color: rgb(8, 8, 8);
+}
+
+/* FIFTH CHILD */
+li:nth-child(5){
+    background-color: rgba(226, 108, 24, 0.959);
+    border-radius: 0% 0% 1rem 1rem;
+    border: 1%;
+    border-bottom: solid;
+    border-color: rgb(14, 13, 13);
+    color: black;
+}
+
+/* FIFTH CHILD ACTIVE, HOVER & VISITED */
+li:nth-child(5) a:active{
+    color: rgb(8, 8, 8);
+}
+
+li:nth-child(5) a:hover{
+    background-color: rgb(136, 230, 13);
+    border-radius: 0% 0% 0.90rem 0.90rem;
+}
+
+li:nth-child(5) a:visited{
+    color: rgb(5, 5, 5);
+}
+
+/* LAST PART */
+.last_part{
+    font-size: 1.2rem;
+    margin: 2rem auto;
+}
